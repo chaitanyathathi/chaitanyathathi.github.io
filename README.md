@@ -1,42 +1,37 @@
 # Dev Landing Page
 
-Minimal landing page for developers.
+How to create a simple landing page for developers
 
-Developers don't talk much. Their code does all the talking. So here's a minimal landing page for developers.
+## Intial setup
 
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+- Create a new repo `username.github.io` on github.com
 
-I wanted a dev landing page to showcase everything I do online and I wanted it to be minimal and right to the point rather beautiful and hefty. And I think most of the devs out there would want the same.
+- Create an empty folder on your local machine and name the folder as `username.github.io`
 
-So I sat down one night and created this **Dev Landing Page**. Feel free to fork, clone, play around and make this your own.
+- Clone the contents of this [repo](https://github.com/flexdinesh/dev-landing-page.git) to a different location in your local machine and copy the contents to your `username.github.io` folder
 
-## Themes
+- Modify the contents of `index.html` page to your liking
 
-Dev Landing Page comes in 9 **material themes**.
+## Deploy to github pages
 
-![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
+- User pages are defaulted to `master` branch in the repo
 
-If none of these themes fit within your taste, it's quite easy to customize and create your own too. 
+- Initialize your local folder `username.github.io` using `git init`
 
-## GitHub Pages
+- Now commit the changes in `index.html` using `git add .` and `git commit -m "Initial Commit"`
 
-GitHub makes it easy to create personal websites. Follow this link - [GitHub Pages](https://pages.github.com/) to know how or follow the steps below.
+- Now add the remote github url to push the changes using `https://github.com/chaitanyathathi/chaitanyathathi.github.io.git`
 
-If you already have a GitHub profile (obviously)
+- Push the changes to github using `git push -u origin/master`
 
-* Create a new repo with the name `{username}.github.io`
-* Clone/Fork this repo and copy the files to your newly created repo
-* Customize your name, links and everything else for your landing page
-* `git push`
+- Github will ask for user credentails of the repo. Once entered the changes will be pushed to remote github repo
 
-Voila! Your site should be live at `https://{username}.github.io`
+## Updating github pages
 
-Here's my **Dev Landing Page** - [Dinesh Pandiyan - portfolio v1](https://portfoliov1.dineshpandiyan.com)
+- Make changes to the files in the `username.github.io` in your local machine
 
-### Custom Domain
+- After making changes, commit all the change locally using `git add .`
 
-If you want to make your new landing page available under a domain like `{username}.com` you can get started here - [Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+- Now commit using `git commit -m "commit message"`
 
-## License
-
-MIT © Dinesh Pandiyan
+- Now push the changes using `git push` and provide repo credentials
